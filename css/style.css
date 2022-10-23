@@ -8,7 +8,27 @@
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
 }
-center{
+.center{
     text-align: center;
     align-content: center;
+}
+.nomargin{
+    margin: 0%;
+    padding: 0%;
+    border: 0ch
+;
+}
+body{
+    background-color: aqua;
+}
+.fondocontent{
+    background-color: aliceblue;
+   
+}
+.pading{
+    padding-left: 100px;
+    padding-right: 100px;
+  
+   
+  
 }
