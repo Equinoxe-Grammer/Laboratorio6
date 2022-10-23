@@ -34,18 +34,57 @@
           </div>
         </div>
       </nav>
-      <div class="container-fluid center nomargin">
-        <div class="row-12 nomargin">
-            <img src="./imgs/tabladetipos.jpg" width="100%" height="300px">
-        </div>
-        <div class="container">
-        
-        </div>
-        
-              </div>
+      <div class="row-12 nomargin">
+        <img src="./imgs/Pikachu.gif" class="img">
+    </div>
+      <div class="container-fluid center pt-5 ">
 
- 
+<div class="container pading mt-0 pt-0 border-top-0 fondocontent">
+<article class="alstart">
+    Una vez vistas la pagina 1 y 2 sabemos los tipos de los pokemons y tenemos la idea de que podemos equipar objetos a los pokemons.
+</article>
+<div class="row-12 nomargin p-5">
+   <p>Pero la efectividad del tipo es lo unico que importa?</p> 
+    <img src="./imgs/Fisico.jpg" width="40%" height="200px">
+    <img src="./imgs/especial.jpg" width="40%" height="200px">
+   <div class="row">             
+    <div class="col-6">  Especial                          </div>
+    <div class="col-6"> Fisico</div>
+</div> 
+  
+<p class="alstart">
+Para eso existen el daño fisico y el daño especial, claro esto no podia ser tan sencillo
+</p>
 
+
+<div class="p-3 alstart" >
+Para ello dejare la formula del daño aqui:
+    <img src="./imgs/formula.png"  class="bg-info" width="100%" height="100px">
+  
+
+</div>
+<div class="row-12 nomargin p-4">
+    Donde las variables son :
+</div>
+
+    <ul class="p-1 alstart">
+       <li>N = Nivel del Pokémon que ataca.</li> 
+        <li>A = Cantidad de ataque o ataque especial del Pokémon. Si el ataque que utiliza el Pokémon es físico se toma la cantidad de ataque y si es especial se toma la cantidad de ataque especial.</li> 
+        <li>P = Poder del ataque, el potencial del ataque.</li>
+<li class="alert alert-danger" role="alert">D = Cantidad de defensa del Pokémon rival. Si el ataque que hemos utilizado es físico cogeremos la cantidad de defensa del Pokémon rival, si el ataque que hemos utilizado es especial, se coge la cantidad de defensa especial del Pokémon rival.</li>
+<li>B = Bonificación. Si el ataque es del mismo tipo que el Pokémon que lo lanza toma un valor de 1.5, si el ataque es de un tipo diferente al del Pokémon que lo lanza toma un valor de 1.</li>
+<li>E = Efectividad. Puede tomar los valores de 0, 0.25, 0.5, 1, 2 y 4.</li>
+<li>V = Variación. Es una variable que comprende todos los valores discretos entre 85 y 100 (ambos incluidos).</li>
+
+
+
+    </ul>
+    <h4>Anteriormente vemos una formula algo compleja y exptendida pero lo mas importante es lo señalado en rojo, al identificar los iconos de fisico y especial, podriamos tener un pokemon debil a tierra pero con 200 puntos de defensa fisica y aunque este reciba un golpe eficas de tierra pero este sea fisico su cualidad de defensa fisica le permitira recibir el golpe sin morir facilmente</h4>
+
+
+</div>
+
+      </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
